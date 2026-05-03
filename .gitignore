@@ -1,0 +1,78 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Experiment outputs (large artifacts)
+a2c_cartpole_outputs/
+a3_bonus_adv_ac_outputs/
+a3_bonus_mujoco_outputs/
+a3_part3_outputs/
+report_figs/
+runs/
+wandb/
+mlruns/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.tfevents.*
+
+# Logs / temp
+*.log
+logs/
+tmp/
+*.tmp
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
